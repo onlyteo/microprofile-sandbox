@@ -1,8 +1,8 @@
 ### VERSIONS ###
 [versions]
-kotlin = "2.0.10"
+kotlin = "2.0.20"
 microprofile = "6.1"
-spring-boot = "3.3.2"
+spring-boot = "3.3.3"
 spring-dependencies = "1.1.6"
 jackson = "2.17.2"
 webjars-jquery = "3.7.1"
