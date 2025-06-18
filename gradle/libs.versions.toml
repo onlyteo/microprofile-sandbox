@@ -13,7 +13,7 @@ webjars-fontawesome = "6.5.2"
 junit = "5.10.3"
 kotest = "5.9.1"
 mockk = "1.13.12"
-google-cloud-jib = "3.4.3"
+google-cloud-jib = "3.4.5"
 git-properties = "2.4.2"
 liberty = "3.8.3"
 
