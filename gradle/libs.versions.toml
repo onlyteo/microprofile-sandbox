@@ -1,6 +1,6 @@
 ### VERSIONS ###
 [versions]
-kotlin = "2.0.20"
+kotlin = "2.1.21"
 microprofile = "6.1"
 spring-boot = "3.3.3"
 spring-dependencies = "1.1.6"
