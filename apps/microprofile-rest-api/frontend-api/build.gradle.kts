@@ -1,16 +1,7 @@
-val jvmMajorVersion: String by project
-val jvmVersion = JavaVersion.toVersion(jvmMajorVersion)
-
-buildscript {
-    dependencies {
-        classpath(libs.liberty.gradle.plugin)
-    }
-}
-
 plugins {
-    alias(libs.plugins.kotlin.jvm)
-    alias(libs.plugins.kotlin.allopen)
-    alias(libs.plugins.liberty)
+    kotlin("jvm")
+    kotlin("plugin.allopen")
+    id("io.openliberty.tools.gradle.Liberty")
     war
 }
 
@@ -20,6 +11,12 @@ dependencies {
     implementation(libs.bundles.webjars)
     testImplementation(libs.bundles.kotest)
     testImplementation(libs.mockk)
+}
+
+buildscript {
+    dependencies {
+        classpath(libs.liberty.gradle.plugin)
+    }
 }
 
 ext {

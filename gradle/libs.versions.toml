@@ -1,38 +1,20 @@
 ### VERSIONS ###
 [versions]
-kotlin = "2.0.20"
 microprofile = "6.1"
-spring-boot = "3.3.3"
-spring-dependencies = "1.1.6"
 jackson = "2.17.2"
 webjars-jquery = "3.7.1"
-webjars-bootstrap = "5.3.3"
+webjars-bootstrap = "5.3.7"
 webjars-popper = "2.11.7"
 webjars-locator = "0.52"
 webjars-fontawesome = "6.5.2"
 junit = "5.10.3"
 kotest = "5.9.1"
 mockk = "1.13.12"
-google-cloud-jib = "3.4.3"
-git-properties = "2.4.2"
-liberty = "3.8.3"
-
-### PLUGINS ###
-[plugins]
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-kotlin-allopen = { id = "org.jetbrains.kotlin.plugin.allopen", version.ref = "kotlin" }
-kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
-spring-dependencies = { id = "io.spring.dependency-management", version.ref = "spring-dependencies" }
-google-cloud-jib = { id = "com.google.cloud.tools.jib", version.ref = "google-cloud-jib" }
-git-properties = { id = "com.gorylenko.gradle-git-properties", version.ref = "git-properties" }
-liberty = { id = "io.openliberty.tools.gradle.Liberty", version.ref = "liberty" }
+liberty = "3.9.4"
 
 ### LIBRARIES ###
 [libraries]
 # Kotlin
-kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit" }
 # Microprofile
 microprofile = { module = "org.eclipse.microprofile:microprofile", version.ref = "microprofile" }
