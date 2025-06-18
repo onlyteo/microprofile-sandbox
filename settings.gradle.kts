@@ -17,6 +17,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "microprofile-sandbox"
 
-include(":microprofile-rest-api:frontend")
-include(":microprofile-rest-api:frontend-api")
-include(":microprofile-rest-api:backend")
+include(":apps:microprofile-rest-api:frontend")
+include(":apps:microprofile-rest-api:frontend-api")
+include(":apps:microprofile-rest-api:backend")
