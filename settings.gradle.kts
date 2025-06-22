@@ -34,6 +34,6 @@ plugins {
 }
 
 // APPS
-include(":apps:microprofile-rest-api:frontend")
-include(":apps:microprofile-rest-api:frontend-api")
-include(":apps:microprofile-rest-api:backend")
+include(":apps:microprofile-api-rest:frontend")
+include(":apps:microprofile-api-rest:frontend-api")
+include(":apps:microprofile-api-rest:backend")
