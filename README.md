@@ -15,6 +15,8 @@ All examples are written in [Kotlin](https://kotlinlang.org) and built using [Gr
 ## Examples
 Read details about the examples in their respective project roots.
 
+* [REST API](./apps/microprofile-api-rest)
+
 ## Architecture
 [Microprofile](https://microprofile.io) is a lightweight framework for building applications for the
 [JVM runtime](https://en.wikipedia.org/wiki/Java_virtual_machine). Ktor was created by
