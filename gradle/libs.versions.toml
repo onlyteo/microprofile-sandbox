@@ -1,6 +1,6 @@
 ### VERSIONS ###
 [versions]
-microprofile = "6.1"
+microprofile = "7.1"
 jackson = "2.19.1"
 webjars-jquery = "3.7.1"
 webjars-bootstrap = "5.3.7"
