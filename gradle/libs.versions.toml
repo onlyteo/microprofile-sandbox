@@ -1,14 +1,14 @@
 ### VERSIONS ###
 [versions]
 microprofile = "7.1"
-jackson = "2.19.2"
+jackson = "2.20.1"
 webjars-jquery = "3.7.1"
-webjars-bootstrap = "5.3.7"
+webjars-bootstrap = "5.3.8"
 webjars-popper = "2.11.7"
 webjars-locator = "0.52"
 webjars-fontawesome = "7.0.0"
 junit = "5.13.4"
-kotest = "5.9.1"
+kotest = "6.0.7"
 mockk = "1.14.5"
 liberty = "3.9.4"
 
