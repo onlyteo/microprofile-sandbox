@@ -30,7 +30,7 @@ plugins {
     id("com.google.cloud.tools.jib") version "3.4.5" apply false
     id("org.jooq.jooq-codegen-gradle") version "3.20.6" apply false
     id("com.expediagroup.graphql") version "8.8.1" apply false
-    id("io.openliberty.tools.gradle.Liberty") version "3.9.5" apply false
+    id("io.openliberty.tools.gradle.Liberty") version "3.9.6" apply false
 }
 
 // APPS
