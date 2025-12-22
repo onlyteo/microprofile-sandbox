@@ -10,7 +10,7 @@ webjars-fontawesome = "7.0.0"
 junit = "5.13.4"
 kotest = "6.0.7"
 mockk = "1.14.5"
-liberty = "3.9.4"
+liberty = "3.9.6"
 
 ### LIBRARIES ###
 [libraries]
