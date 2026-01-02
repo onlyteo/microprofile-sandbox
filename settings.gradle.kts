@@ -21,7 +21,7 @@ dependencyResolutionManagement {
 
 // PLUGINS
 plugins {
-    kotlin("jvm") version "2.2.21" apply false
+    kotlin("jvm") version "2.3.0" apply false
     kotlin("plugin.allopen") version "2.2.21" apply false
     kotlin("plugin.spring") version "2.2.21" apply false
     kotlin("plugin.serialization") version "2.2.21" apply false
