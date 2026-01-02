@@ -7,6 +7,7 @@ webjars-bootstrap = "5.3.8"
 webjars-popper = "2.11.7"
 webjars-locator = "0.52"
 webjars-fontawesome = "7.0.0"
+thymeleaf-layout-dialect = "3.4.0"
 junit = "5.13.4"
 kotest = "6.0.7"
 mockk = "1.14.5"
@@ -15,6 +16,7 @@ liberty = "3.9.4"
 ### LIBRARIES ###
 [libraries]
 # Kotlin
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit" }
 # Microprofile
 microprofile = { module = "org.eclipse.microprofile:microprofile", version.ref = "microprofile" }
@@ -25,12 +27,16 @@ spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-start
 spring-boot-starter-jdbc = { module = "org.springframework.boot:spring-boot-starter-jdbc" }
 spring-boot-starter-validation = { module = "org.springframework.boot:spring-boot-starter-validation" }
 spring-boot-starter-thymeleaf = { module = "org.springframework.boot:spring-boot-starter-thymeleaf" }
-# Spring Security
-spring-security-oauth2-authorization-server = { module = "org.springframework.security:spring-security-oauth2-authorization-server" }
+spring-boot-starter-oauth2-authorization-server = { module = "org.springframework.boot:spring-boot-starter-oauth2-authorization-server" }
 # Jackson
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "jackson" }
 jackson-dataformat-csv = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-csv", version.ref = "jackson" }
+# H2
+h2-database = { module = "com.h2database:h2" }
+# Thymeleaf
+thymeleaf-layout-dialect = { module = "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect", version.ref = "thymeleaf-layout-dialect" }
+thymeleaf-extras-spring-security = { module = "org.thymeleaf.extras:thymeleaf-extras-springsecurity6" }
 # Webjars
 webjars-jquery = { module = "org.webjars:jquery", version.ref = "webjars-jquery" }
 webjars-bootstrap = { module = "org.webjars:bootstrap", version.ref = "webjars-bootstrap" }

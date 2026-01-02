@@ -37,3 +37,8 @@ plugins {
 include(":apps:microprofile-api-rest:frontend")
 include(":apps:microprofile-api-rest:frontend-api")
 include(":apps:microprofile-api-rest:backend")
+
+include(":apps:microprofile-oauth2-token-relay:frontend")
+include(":apps:microprofile-oauth2-token-relay:frontend-api")
+include(":apps:microprofile-oauth2-token-relay:backend")
+include(":apps:microprofile-oauth2-token-relay:authorization-server")

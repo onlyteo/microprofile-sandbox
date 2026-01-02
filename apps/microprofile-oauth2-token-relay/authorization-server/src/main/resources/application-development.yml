@@ -1,0 +1,41 @@
+### SPRING ###
+spring:
+  # Security
+  security:
+    user:
+      name: bilbo
+      password: "{noop}G4nd4lf"
+      roles:
+        - USER
+    oauth2:
+      authorizationserver:
+        client:
+          sandbox-frontend:
+            registration:
+              client-id: sandbox-frontend
+              client-secret: "{noop}G4nd4lf"
+              scopes:
+                - openid
+                - profile
+                - roles
+              authorization-grant-types:
+                - authorization_code
+                - refresh_token
+              client-authentication-methods:
+                - client_secret_basic
+              redirect-uris:
+                - http://localhost:3000/login/oauth2/code/sandbox-frontend # Use frontend host to allow login flow to go through browser
+
+### LOGGING ###
+logging:
+  level:
+    root: INFO
+    com.onlyteo: DEBUG
+
+### SERVER ###
+server:
+  port: 8888
+  error:
+    include-stacktrace: ALWAYS
+    whitelabel:
+      enabled: false
